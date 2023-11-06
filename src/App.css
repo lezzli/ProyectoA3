@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  padding-right: 18vh;
+  font-size: 23px;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 38%);
+  background-color: white;
+  padding: 50px 60px 70px;
+  text-align: center;
+  border: 1px solid;
+  height: 60vh;
+  border-radius: 5px;
+}
+
+
+.btn {
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  padding-block: 0.5rem;
+  padding-inline: 1.25rem;
+  background-color:#0070B1;
+  border-radius: 9999px;
+  align-items: center;
+  justify-content: center;
+  color: #ffff;
+  gap: 10px;
+  font-weight: bold;
+  border: 3px solid #ffffff4d;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+  width: 27vh;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  border-color: #A1D3ED;
+}
+
+.img-center {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 55vh;
+  padding-top: 20vh;
+}
+
+.icon {
+  width: 3vh;
+  margin-left: 1vh;
+}
+
+.input-field {
+  background: #eaeaea;
+  margin: 15px 0;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  height: 7vh
+}
+
+.input-field input {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  padding: 18px;
+}
+
+.check-field {
+  display: flex;
+  font-size: 13px;
+  padding-bottom: 13px;
+}
+
+.check-field p {
+  padding-right: 67%;
+  margin-left: 8px;
+}
+
+.forgotpass {
+  display: flex;
+  font-size: small;
+  padding-top: 25px;
+}
+
+.pcopy{
+  transform: translateY(96vh);
+}
